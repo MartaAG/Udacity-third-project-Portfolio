@@ -1,0 +1,168 @@
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.background-photo {
+  height: 100%;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-image: url("img/pexels-photo-373076.jpeg");
+  background-size: cover;
+}
+
+.navigation {
+ border: 1px solid white;  /* For debugging */
+   display: flex;
+   justify-content: space-between;
+}
+
+#logo-picture {
+  border: 1px solid white;  /* For debugging */
+  width: 50%;
+}
+
+.menu {
+  border: 1px solid green;
+  width: 30%;
+}
+
+.navigation-bar {
+  border: 1px solid pink;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 10px;
+}
+
+.navigation-bar > li {
+  text-transform: uppercase;
+  text-decoration:none;
+  color: white;
+}
+
+
+li {
+  text-decoration:none;
+  color: white;
+}
+
+.social {
+  border: 1px solid red;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons {
+  padding: 10px;
+  max-width: 40%;
+  max-height: 40%
+}
+
+.greetings {
+  border: 1px solid red;
+}
+
+.hi {
+  font-family: 'Berkshire Swash', cursive;
+  color: white;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.hiya {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 80px;
+  color: white;
+  margin-left: 20px;
+}
+
+.about, .portf, .contact {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 70px;
+  text-align: center;
+  color: #cb3066;
+}
+
+h2 {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 45px;
+  color: #16bffd;
+}
+
+.portrait {
+  display: flex;
+  justify-content: center;
+}
+
+.big-photo1, .big-photo2, .big-photo3, .big-photo4 {
+  max-width: 100%;
+  width: 50%;
+  height: 100%;
+  -webkit-box-shadow: 10px 10px 32px -16px rgba(1,107,255,1);
+-moz-box-shadow: 10px 10px 32px -16px rgba(1,107,255,1);
+box-shadow: 10px 10px 32px -16px rgba(1,107,255,1);
+}
+
+.box1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+
+}
+
+.box2 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 20px;
+
+
+}
+
+.description1 {
+  padding: 50px;
+  width: 50%;
+}
+
+.description2 {
+    padding: 50px;
+    width: 50%;
+}
+
+.right-aligment {
+  text-align: right;
+}
+
+
+.contact-icons {
+  max-width: 20%;
+  max-height: 20%;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.lasticons {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.footer-container {
+  color: #fff;
+  background-color: #5995DA;
+  padding: 20px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
