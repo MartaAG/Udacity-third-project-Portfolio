@@ -1,9 +1,12 @@
 
-@media screen and (max-width: 549px) {
+@media screen and (max-width: 740px) {
   .container {
     display: flex;
     flex-direction: column;
   }
+
+
+
   .box1, .box2 {
     display: flex;
     flex-direction: column;
@@ -13,6 +16,22 @@
 .description1, .description2, .right-aligment {
   text-align: center;
   padding: 0;
+  margin: 0;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.navigation-bar {
+  display: flex;
+  flex-direction: column;
 }
 
 }

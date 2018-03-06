@@ -15,62 +15,56 @@ body {
   height: 100%;
   max-width: 100%;
   background-repeat: no-repeat;
-  background-image: url("img/pexels-photo-373076.jpeg");
+  background-image: url("img/pexels-photo-373076.jpeg"); /*Photo from pexels, https://www.pexels.com/search/design/ */
   background-size: cover;
 }
 
 .navigation {
- border: 1px solid white;  /* For debugging */
    display: flex;
    justify-content: space-between;
 }
 
 #logo-picture {
-  border: 1px solid white;  /* For debugging */
-  width: 50%;
+  max-width: 100%;
+}
+
+.logo {
+  width: 15%;
 }
 
 .menu {
-  border: 1px solid green;
-  width: 30%;
+    width: 30%;
 }
 
 .navigation-bar {
-  border: 1px solid pink;
   display: flex;
   justify-content: space-between;
   list-style: none;
   padding: 10px;
+  margin: 5px;
 }
 
-.navigation-bar > li {
+.navigation-bar > li, a {
   text-transform: uppercase;
   text-decoration:none;
   color: white;
-}
-
-
-li {
-  text-decoration:none;
-  color: white;
+  padding: 10px;
 }
 
 .social {
-  border: 1px solid red;
   padding: 10px;
   display: flex;
+  align-items: center;
   justify-content: space-around;
 }
 
 .icons {
   padding: 10px;
-  max-width: 40%;
-  max-height: 40%
+  width: 40px;
+  height: 40px;
+  max-width: 100%;
 }
 
-.greetings {
-  border: 1px solid red;
-}
 
 .hi {
   font-family: 'Berkshire Swash', cursive;
@@ -102,6 +96,12 @@ h2 {
 .portrait {
   display: flex;
   justify-content: center;
+}
+
+.profilepic {
+  max-width: 50%;
+  width: 50%;
+  height: 100%
 }
 
 .big-photo1, .big-photo2, .big-photo3, .big-photo4 {
@@ -155,7 +155,11 @@ box-shadow: 10px 10px 32px -16px rgba(1,107,255,1);
     justify-content: center;
 }
 
-
+.text1 {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
 
 .footer-container {
   color: #fff;
